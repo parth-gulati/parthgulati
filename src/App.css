@@ -1,3 +1,7 @@
+body {
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#landingtext {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
 }
