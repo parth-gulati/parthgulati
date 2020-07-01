@@ -52,7 +52,7 @@ let skillsData = {
   skill5: "Node.js",
   val5: 65,
   skill6: "HTML & CSS",
-  val6: 100,
+  val6: 95,
 };
 
 let footerData = {

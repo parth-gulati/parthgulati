@@ -88,13 +88,14 @@ export default class Skills extends Component {
                   </div>
                   <div className="progress">
                     <span className="skill">
-                      WordPress/CMS <i className="val">90%</i>
+                      {skillsData.skill5}{" "}
+                      <i className="val">{skillsData.val5}%</i>
                     </span>
                     <div className="progress-bar-wrap">
                       <div
                         className="progress-bar"
                         role="progressbar"
-                        aria-valuenow={90}
+                        aria-valuenow={skillsData.val5}
                         aria-valuemin={0}
                         aria-valuemax={100}
                       />
@@ -102,13 +103,14 @@ export default class Skills extends Component {
                   </div>
                   <div className="progress">
                     <span className="skill">
-                      Photoshop <i className="val">55%</i>
+                      {skillsData.skill6}{" "}
+                      <i className="val">{skillsData.val6}%</i>
                     </span>
                     <div className="progress-bar-wrap">
                       <div
                         className="progress-bar"
                         role="progressbar"
-                        aria-valuenow={55}
+                        aria-valuenow={skillsData.val6}
                         aria-valuemin={0}
                         aria-valuemax={100}
                       />
