@@ -12,7 +12,7 @@ let aboutData = {
   title: "Computer Science Engineer & Web Developer.",
   summary: "I code for a living. And for fun.",
   birthday: "14 September 1998",
-  website: "www.itsparthgulati.com",
+  website: "https://stormy-spire-29004.herokuapp.com/",
   phone: "9999696229",
   city: "New Delhi, India",
   availability: "Available",
@@ -25,7 +25,7 @@ let aboutData = {
 
 let factsData = {
   description:
-    "I have been consistently trying to improve my skillset by learning more and more new stuff and implementing it in new projects.",
+    "I strive to effectively learn and master new languages and implement them in new projects.",
   cd1: "Projects on Github",
   c1: 17,
   cd2: "Certifications",
@@ -38,7 +38,7 @@ let factsData = {
 
 let skillsData = {
   description:
-    "These are some of the set of skills that I have acquired uptil now. This is list is not final and never will be. I aspire to make it ever-growing.",
+    "This is the set of skills that I have acquired over the course of time as a Software Developer. I aspire to make this list ever-growing.",
   valMax: 100,
   valMin: 0,
   skill1: "C++",
@@ -66,50 +66,54 @@ let footerData = {
 
 let resumeData = {
   name: "Parth Gulati",
-  about: "A snapshot of my resume to get an idea of my work",
+  about: "A snapshot of my resume",
   summary:
-    "Innovative and passionate web developer with 5+ years of programming experience and working on a variety of projects of different paradigms.",
-  address: "7A/15 WEA Channa Market Karol Bagh",
+    "Innovative and passionate web developer with 5+ years of pratice in programming and experience in working on a variety of projects with cross-country teams.",
+  address: "7A/15 WEA Karol Bagh",
   phone: "+91 9999696229",
   email: "gulati.parth98@gmail.com",
   edu1: {
-    title: "BACHELOR OF TECHNOLOGY IN COMPUTER SCIENCE",
+    title: "BACHELOR OF TECHNOLOGY (COMPUTER SCIENCE)",
     period: "2016-2020",
     school: "Vellore Institute of Technology, Vellore",
-    des:
-      "Learnt a variety of languages and technologies used to develop efficient and smart solutions.",
+    des: `Problem Solving and Programming, Calculus for Engineers, Data Structures and Algorithms, Internet and Web Programming, Artificial Intelligence, Natural Language Processing and many more.`,
+    cgpa: `8.22`,
   },
   edu2: {
-    title: "HIGH SCHOOL GRADUATION",
+    title: "CBSE AISSCE EXAMINATION",
     period: "2015-2016",
     school: "The Heritage School, Vasant Kunj",
-    des:
-      "Learnt about fundamental yet intuitive concepts of Physics, Chemistry, Mathematics and Computer Science, and scored a percentage of 94.6% in CBSE Board Examinations",
+    des: "Physics, Chemistry, Mathematics, Computer Science and English",
+    percentage: "94.6%",
+    achievements: "School topper in Physics, Chemistry and Computer Science",
   },
   ex1: {
     title: "WEB DEVELOPMENT INTERN",
     period: "June 2020 - Present",
     location: "MomentText AI, New Delhi",
-    des1: "Working as a Front End Web Developer to design intuitive designs ",
+    des1:
+      "Working as a Front End Web Developer at a Machine-Learning Startup that develops Smart Business Solutions for companies like KPMG and McKinsey & Company",
+    des2:
+      "Currently working on the Front-End of AI-powered FMS Application for KPMG which will help in Internal Capital Adequacy Assessment Process (ICAAP) Stress Testing",
   },
   ex2: {
     title: "INTERN",
     period: "December 2019 - June 2020",
-    location: "AssignCorp Ltd, Noida",
-    des1:
-      "Learnt about several Web Development frameworks such as React.js and node.js and where to implement them",
+    location: "AssignCorp Ltd, California",
     des2:
-      "Helped in the creation of the new TessaB cryptocurrency tokens using Solidity (Ethereum) and fast-tracking their deployment",
+      "Studied about several Web Development frameworks such as React.js and node.js in depth and where to implement them",
+    des1:
+      "Worked with a cross-country team in California to create the upcoming TessaB cryptocurrency tokens using Solidity (Ethereum) and testing them on the Kovan Testnet",
   },
   ex3: {
     title: "INTERN",
     period: "June 2018 - July 2018",
     location: "NIIT Ltd, Gurgaon",
-    des1: "Gained insights on how things work in an organisation",
-    des2: "Created an auto email-generation application using Java",
-    des3:
+    des4: "Gained insights on how things work in an organisation",
+    des1: "Created an auto email-generation application using Java",
+    des2:
       "Used Google Calendar API to seamlessly connect the application to Outlook/Google Calendars",
-    des4:
+    des3:
       "Converted the time of the invite to the destination's timezone while taking daylight savings into consideration",
   },
 };
@@ -125,7 +129,7 @@ let portfolioData = {
 let contactData = {
   name: "Parth Gulati",
   email: "gulati.parth98@gmail.com",
-  location: "7A/15 WEA Channa Market Karol Bagh New Delhi-110005",
+  location: "7A/15 WEA Karol Bagh New Delhi-110005",
   phone: "9999696229",
 };
 

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { useToasts } from "react-toast-notifications";
 import "./App.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";

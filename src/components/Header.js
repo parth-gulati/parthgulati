@@ -21,7 +21,7 @@ class Header extends Component {
                 <i className="bx bx-file-blank" /> <span>Resume</span>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#portfolio">
                 <i className="bx bx-book-content" /> <span>Portfolio</span>
               </a>
@@ -30,7 +30,8 @@ class Header extends Component {
               <a href="#services">
                 <i className="bx bx-server" /> <span>Services</span>
               </a>
-            </li>
+            </li> */}
+
             <li>
               <a href="#contact">
                 <i className="bx bx-envelope" /> <span>Contact</span>
