@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
-import { useToasts } from "react-toast-notifications";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 class Contact extends React.Component {
   state = {
@@ -163,8 +164,35 @@ class Contact extends React.Component {
                       Your message has been sent. Thank you!
                     </div>
                   </div>
+
                   <div className="text-center">
-                    <button type="submit">Send Message</button>
+                    <button
+                      type="submit"
+                      onClick={() => {
+                        toast.error("🦄 Work in Progress", {
+                          position: "top-right",
+                          autoClose: 5000,
+                          hideProgressBar: false,
+                          closeOnClick: true,
+                          pauseOnHover: true,
+                          draggable: true,
+                          progress: undefined,
+                        });
+                      }}
+                    >
+                      Send Message
+                    </button>
+                    <ToastContainer
+                      position="top-right"
+                      autoClose={5000}
+                      hideProgressBar={false}
+                      newestOnTop={false}
+                      closeOnClick
+                      rtl={false}
+                      pauseOnFocusLoss
+                      draggable
+                      pauseOnHover
+                    />
                   </div>
                 </form>
               </div>
