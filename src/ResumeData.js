@@ -102,7 +102,7 @@ let resumeData = {
     period: "December 2017 - December 2018",
     location: "Becoming I Foundation",
     desc:
-      "Went to nearby Government Schools once a week to teach underprivileged children",
+      "Taught underprivileged children of various neighboring government schools on a weekly basis",
   },
   ex2: {
     title: "INTERN",
