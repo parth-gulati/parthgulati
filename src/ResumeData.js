@@ -76,8 +76,9 @@ let resumeData = {
     title: "BACHELOR OF TECHNOLOGY (COMPUTER SCIENCE)",
     period: "2016-2020",
     school: "Vellore Institute of Technology, Vellore",
-    des: `Problem Solving and Programming, Calculus for Engineers, Data Structures and Algorithms, Internet and Web Programming, Artificial Intelligence, Natural Language Processing and many more.`,
+    classes: `Problem Solving and Programming, Calculus for Engineers, Data Structures and Algorithms, Internet and Web Programming, Artificial Intelligence, Natural Language Processing and many more.`,
     cgpa: `8.22`,
+    des: `I like to play chess, video games and read books`,
   },
   edu2: {
     title: "CBSE AISSCE EXAMINATION",
@@ -92,18 +93,26 @@ let resumeData = {
     period: "June 2020 - Present",
     location: "MomentText AI, New Delhi",
     des1:
-      "Working as a Front End Web Developer at a Machine-Learning Startup that develops Smart Business Solutions for companies like KPMG and McKinsey & Company",
+      "Front End Web Developer at a Machine-Learning Startup that develops Smart Business Solutions for companies like KPMG and McKinsey & Company",
     des2:
       "Currently working on the Front-End of AI-powered FMS Application for KPMG which will help in Internal Capital Adequacy Assessment Process (ICAAP) Stress Testing",
+  },
+  volunteer: {
+    title: `Volunteer Teacher`,
+    period: "December 2017 - December 2018",
+    location: "Becoming I Foundation",
+    desc:
+      "Went to nearby Government Schools once a week to teach underprivileged children",
   },
   ex2: {
     title: "INTERN",
     period: "December 2019 - June 2020",
     location: "AssignCorp Ltd, California",
-    des2:
+    des3:
       "Studied about several Web Development frameworks such as React.js and node.js in depth and where to implement them",
     des1:
-      "Worked with a cross-country team in California to create the upcoming TessaB cryptocurrency tokens using Solidity (Ethereum) and testing them on the Kovan Testnet",
+      "Worked with a cross-country team in California to create TessaB cryptocurrency tokens using Solidity (Ethereum)",
+    des2: `Tested the TessaB tokens by deploying them on the Kovan Testnet`,
   },
   ex3: {
     title: "INTERN",

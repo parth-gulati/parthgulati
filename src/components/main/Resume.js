@@ -30,12 +30,12 @@ export default class Resume extends Component {
                     <em>{resumeData.edu1.school}</em>
                   </p>
                   <p>
-                    <b>Relevant Classes: </b>
-                    {resumeData.edu1.des}
-                  </p>
-                  <p>
                     <b>CGPA: </b>
                     {resumeData.edu1.cgpa}
+                  </p>
+                  <p>
+                    <b>Relevant Classes: </b>
+                    {resumeData.edu1.classes}
                   </p>
                 </div>
                 <div className="resume-item">
@@ -57,6 +57,16 @@ export default class Resume extends Component {
                     <b>Percentage: </b>
                     {resumeData.edu2.percentage}{" "}
                   </p>
+                </div>
+                <h3 className="resume-title">Volunteer Work</h3>
+
+                <div className="resume-item pb-0">
+                  <h4>{resumeData.volunteer.title}</h4>
+                  <h5>{resumeData.volunteer.period}</h5>
+                  <p>
+                    <em>{resumeData.volunteer.location}</em>
+                  </p>
+                  <p>{resumeData.volunteer.desc}</p>
                 </div>
               </div>
               <div className="col-lg-6">
@@ -81,6 +91,7 @@ export default class Resume extends Component {
                   <ul>
                     <li>{resumeData.ex2.des1}</li>
                     <li>{resumeData.ex2.des2}</li>
+                    <li>{resumeData.ex2.des3}</li>
                   </ul>
                 </div>
                 <div className="resume-item">
