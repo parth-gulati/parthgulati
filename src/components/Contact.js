@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer, toast, Slide } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 class Contact extends React.Component {
@@ -170,6 +170,7 @@ class Contact extends React.Component {
                       type="submit"
                       onClick={() => {
                         toast.error("🦄 Work in Progress", {
+                     
                           position: "top-right",
                           autoClose: 5000,
                           hideProgressBar: false,
