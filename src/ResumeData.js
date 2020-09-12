@@ -12,7 +12,7 @@ let aboutData = {
   title: "Computer Science Engineer & Web Developer.",
   summary: "I code for a living. And for fun.",
   birthday: "14 September 1998",
-  website: "https://parthgulati.herokuapp.com/",
+  website: "https://parthgulati.herokuapp.com",
   phone: "9999696229",
   city: "New Delhi, India",
   availability: "Available",
