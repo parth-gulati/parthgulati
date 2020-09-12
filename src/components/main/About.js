@@ -41,7 +41,8 @@ class About extends Component {
                       </li>
                       <li>
                         <i className="icofont-rounded-right" />
-                        <strong>Website:</strong> {aboutData.website}
+                        <strong>Website:</strong>{" "}
+                        <a href={aboutData.website}> {aboutData.website}</a>
                       </li>
                       <li>
                         <i className="icofont-rounded-right" />
