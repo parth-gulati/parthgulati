@@ -69,12 +69,27 @@ export default class Skills extends Component {
                       />
                     </div>
                   </div>
+                  <div className="progress">
+                    <span className="skill">
+                      {skillsData.skill8}{" "}
+                      <i className="val">{skillsData.val8}%</i>
+                    </span>
+                    <div className="progress-bar-wrap">
+                      <div
+                        className="progress-bar"
+                        role="progressbar"
+                        aria-valuenow={skillsData.val8}
+                        aria-valuemin={0}
+                        aria-valuemax={100}
+                      />
+                    </div>
+                  </div>
                 </div>
                 <div className="col-lg-6">
                   <div className="progress">
                     <span className="skill">
                       {skillsData.skill4}{" "}
-                      <i className="val">{skillsData.val4}</i>
+                      <i className="val">{skillsData.val4}%</i>
                     </span>
                     <div className="progress-bar-wrap">
                       <div
@@ -111,6 +126,21 @@ export default class Skills extends Component {
                         className="progress-bar"
                         role="progressbar"
                         aria-valuenow={skillsData.val6}
+                        aria-valuemin={0}
+                        aria-valuemax={100}
+                      />
+                    </div>
+                  </div>
+                  <div className="progress">
+                    <span className="skill">
+                      {skillsData.skill7}{" "}
+                      <i className="val">{skillsData.val7}%</i>
+                    </span>
+                    <div className="progress-bar-wrap">
+                      <div
+                        className="progress-bar"
+                        role="progressbar"
+                        aria-valuenow={skillsData.val7}
                         aria-valuemin={0}
                         aria-valuemax={100}
                       />

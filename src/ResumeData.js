@@ -33,7 +33,7 @@ let factsData = {
   cd3: "Programming Languages",
   c3: 10,
   cd4: "Internships",
-  c4: 3,
+  c4: 4,
 };
 
 let skillsData = {
@@ -42,7 +42,7 @@ let skillsData = {
   valMax: 100,
   valMin: 0,
   skill1: "C++",
-  val1: "95",
+  val1: 95,
   skill2: "Java",
   val2: 90,
   skill3: "JavaScript",
@@ -50,9 +50,13 @@ let skillsData = {
   skill4: "React.js",
   val4: 80,
   skill5: "Node.js",
-  val5: 65,
+  val5: 70,
   skill6: "HTML & CSS",
   val6: 95,
+  skill7: "Vue.js",
+  val7: 80,
+  skill8: "MongoDB",
+  val8: 70,
 };
 
 let footerData = {
@@ -69,7 +73,7 @@ let resumeData = {
   about: "A snapshot of my resume",
   summary:
     "Innovative and passionate web developer with 5+ years of pratice in programming and experience in working on a variety of projects with cross-country teams.",
-  address: "7A/15 WEA Karol Bagh",
+  address: "Karol Bagh, New Delhi",
   phone: "+91 9999696229",
   email: "gulati.parth98@gmail.com",
   edu1: {
@@ -90,12 +94,12 @@ let resumeData = {
   },
   ex1: {
     title: "WEB DEVELOPMENT INTERN",
-    period: "June 2020 - Present",
+    period: "June 2020 - October 2020",
     location: "MomentText AI, New Delhi",
     des1:
-      "Front End Web Developer at a Machine-Learning Startup that develops Smart Business Solutions for companies like KPMG and McKinsey & Company",
+      "Worked as a Front End Web Developer at a Machine-Learning Startup that develops Smart Business Solutions for companies like KPMG and McKinsey & Company",
     des2:
-      "Currently working on the Front-End of AI-powered FMS Application for KPMG which will help in Internal Capital Adequacy Assessment Process (ICAAP) Stress Testing",
+      "Worked on the Front-End of AI-powered FMS Application for KPMG which will help in Internal Capital Adequacy Assessment Process (ICAAP) Stress Testing",
   },
   volunteer: {
     title: `Volunteer Teacher`,
@@ -107,7 +111,7 @@ let resumeData = {
   ex2: {
     title: "INTERN",
     period: "December 2019 - June 2020",
-    location: "AssignCorp Ltd, California",
+    location: "AssignCorp Ltd, Los Angeles",
     des3:
       "Studied about several Web Development frameworks such as React.js and node.js in depth and where to implement them",
     des1:
@@ -125,6 +129,15 @@ let resumeData = {
     des3:
       "Converted the time of the invite to the destination's timezone while taking daylight savings into consideration",
   },
+  ex4: {
+    title: "VUE.JS DEVELOPMENT INTERN",
+    period: "August 2018 - Present",
+    location: "AssignCorp Ltd, Los Angeles",
+    des1:
+      "Studied about Vue.js, Vuex and Vue Storefront PWA and its applications",
+    des2:
+      "Working with a cross country team to develop Glyde.com using Vue Storefront PWA",
+  },
 };
 
 let portfolioData = {
@@ -138,7 +151,7 @@ let portfolioData = {
 let contactData = {
   name: "Parth Gulati",
   email: "gulati.parth98@gmail.com",
-  location: "7A/15 WEA Karol Bagh New Delhi-110005",
+  location: "Karol Bagh, New Delhi-110005",
   phone: "9999696229",
 };
 
