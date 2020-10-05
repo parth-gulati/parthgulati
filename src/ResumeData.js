@@ -16,7 +16,7 @@ let aboutData = {
   phone: "9999696229",
   city: "New Delhi, India",
   availability: "Available",
-  age: "21",
+  age: "22",
   degree: "B.Tech in Computer Science",
   email: "gulati.parth98@gmail.com",
   bio:
