@@ -131,7 +131,7 @@ let resumeData = {
   },
   ex4: {
     title: "VUE.JS DEVELOPMENT INTERN",
-    period: "August 2018 - Present",
+    period: "August 2020 - Present",
     location: "AssignCorp Ltd, Los Angeles",
     des1:
       "Studied about Vue.js, Vuex and Vue Storefront PWA and its applications",
