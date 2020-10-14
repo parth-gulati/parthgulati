@@ -27,7 +27,7 @@ let factsData = {
   description:
     "I strive to effectively learn and master new languages and implement them in new projects.",
   cd1: "Projects on Github",
-  c1: 17,
+  c1: 19,
   cd2: "Certifications",
   c2: 9,
   cd3: "Programming Languages",
