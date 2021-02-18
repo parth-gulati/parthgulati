@@ -17,7 +17,7 @@ export default class Resume extends Component {
                 <h3 className="resume-title">Summary</h3>
                 <div className="resume-item pb-0">
                   <h4>{resumeData.name}</h4>
-                  <h5>Incoming Software Developer at PwC</h5>
+                  <h5>Software Developer at PwC</h5>
                   <p>
                     <em>{resumeData.summary}</em>
                   </p>
