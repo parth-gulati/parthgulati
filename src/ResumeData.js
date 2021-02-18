@@ -131,12 +131,19 @@ let resumeData = {
   },
   ex4: {
     title: "VUE.JS DEVELOPMENT INTERN",
-    period: "August 2020 - Present",
+    period: "August 2020 - January 2021",
     location: "AssignCorp Ltd, Los Angeles",
     des1:
       "Studied about Vue.js, Vuex and Vue Storefront PWA and its applications",
     des2:
       "Working with a cross country team to develop Glyde.com using Vue Storefront PWA",
+  },
+
+  ex5: {
+    title: "TECHNOLOGY CONSULTANT ASSOCIATE - DIGITAL ENGINEER",
+    period: "January 2021 - Present",
+    location: "PwC SDC, Bengaluru",
+    des1: "Learning new technologies such as ASP .NET Core, Angular and Azure",
   },
 };
 
