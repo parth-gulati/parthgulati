@@ -144,7 +144,7 @@ let resumeData = {
     period: "January 2021 - Present",
     location: "Deloitte India, Gurgaon",
     des1:
-      "Learning new technologies in a Company Bootcamp such as React.js, Next.js, Springboot and Java",
+      "Learning new technologies in HashedIn University Bootcamp such as React.js, Next.js, Springboot and Java",
   },
 };
 
