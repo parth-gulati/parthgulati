@@ -140,9 +140,9 @@ let resumeData = {
   },
 
   ex5: {
-    title: "TECHNOLOGY CONSULTANT ASSOCIATE - DIGITAL ENGINEER",
+    title: "ANALYST AT DCM: DIGITAL CUSTOMER & MARKETING, DELOITTE",
     period: "January 2021 - Present",
-    location: "PwC SDC, Bengaluru",
+    location: "Deloitte India, Gurgaon",
     des1: "Learning new technologies such as ASP .NET Core, Angular and Azure",
   },
 };
