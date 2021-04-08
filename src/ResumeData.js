@@ -2,7 +2,7 @@ let heroData = {
   name: "Parth Gulati",
   twitter: "https://twitter.com/_parth_gulati_",
   facebook: "https://www.facebook.com/parth1324/",
-  instagram: "https://www.instagram.com/pattypan__/",
+  instagram: "https://www.instagram.com/parthrealg/",
   linkedin: "https://www.linkedin.com/in/parth-gulati-733a15138/",
 };
 
@@ -64,7 +64,7 @@ let footerData = {
   data: "Feel free to reach out to me anytime by clicking on the links below",
   twitter: "https://twitter.com/_parth_gulati_",
   facebook: "https://www.facebook.com/parth1324/",
-  instagram: "https://www.instagram.com/pattypan__/",
+  instagram: "https://www.instagram.com/parthrealg/",
   linkedin: "https://www.linkedin.com/in/parth-gulati-733a15138/",
 };
 
