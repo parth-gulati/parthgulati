@@ -48,7 +48,7 @@ let skillsData = {
   skill3: "JavaScript",
   val3: 90,
   skill4: "React.js",
-  val4: 80,
+  val4: 85,
   skill5: "Node.js",
   val5: 70,
   skill6: "HTML & CSS",
