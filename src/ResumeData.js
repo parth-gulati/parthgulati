@@ -26,9 +26,9 @@ let factsData = {
   description:
     "I strive to effectively learn and master new languages and implement them in new projects.",
   cd1: "Projects on Github",
-  c1: 21,
+  c1: 24,
   cd2: "Certifications",
-  c2: 9,
+  c2: 12,
   cd3: "Programming Languages",
   c3: 10,
   cd4: "Internships",
@@ -159,7 +159,7 @@ let resumeData = {
 
   ex5: {
     title: "ANALYST AT DCM: DIGITAL CUSTOMER & MARKETING, DELOITTE",
-    period: "January 2021 - Present",
+    period: "March 2021 - Present",
     location: "Deloitte India, Gurgaon",
     des1: "Learnt new technologies in HashedIn University Bootcamp such as React.js, Next.js, Springboot and Java",
     des2: "Working as a full-stack developer on an Investment Application for a Major Client",

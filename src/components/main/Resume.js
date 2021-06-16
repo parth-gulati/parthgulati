@@ -6,16 +6,34 @@ export default class Resume extends Component {
     let resumeData = this.props.resumeData;
 
     let projects = resumeData.projects;
-    let projectsHTML = projects.map((project) => (
-      <div className="resume-item pb-0">
-        <h4>{project.title}</h4>
-        <p>{project.desc}</p>
-        <p>
-          <a href={project.link}>View Project</a>
-        </p>
-        <br />
-      </div>
-    ));
+    let projectsHTML = projects.map((project, index) => {
+      if (index < 4)
+        return (
+          <div className="resume-item pb-0">
+            <h4>{project.title}</h4>
+            <p>{project.desc}</p>
+            <p>
+              <a href={project.link}>View Project</a>
+            </p>
+            <br />
+          </div>
+        );
+    });
+
+    let projectsHTML2 = projects.map((project, index) => {
+      if (index >= 4) {
+        return (
+          <div className="resume-item pb-0">
+            <h4>{project.title}</h4>
+            <p>{project.desc}</p>
+            <p>
+              <a href={project.link}>View Project</a>
+            </p>
+            <br />
+          </div>
+        );
+      }
+    });
 
     return (
       <React.Fragment>
@@ -87,6 +105,7 @@ export default class Resume extends Component {
               </div>
 
               <div className="col-lg-6">
+                {projectsHTML2}
                 <h3 className="resume-title">Professional Experience</h3>
                 <div className="resume-item">
                   <h4>{resumeData.ex5.title}</h4>
