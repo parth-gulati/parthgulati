@@ -19,8 +19,7 @@ let aboutData = {
   age: "22",
   degree: "B.Tech in Computer Science",
   email: "gulati.parth98@gmail.com",
-  bio:
-    "I have been programming for about 5 years now. I like to constantly learn new technologies and work with them. I started with C++ and was amazed with the things that we can create on a single console application. I have since learned about 12 new languages and currently actively work on web development projects. Additionally, I like to read fantasy fiction, about space and time paradoxes, play video games and chill.",
+  bio: "I have been programming for about 5 years now. I like to constantly learn new technologies and work with them. I started with C++ and was amazed with the things that we can create on a single console application. I have since learned about 12 new languages and currently actively work on web development projects. Additionally, I like to read fantasy fiction, about space and time paradoxes, play video games and chill.",
 };
 
 let factsData = {
@@ -96,26 +95,21 @@ let resumeData = {
     title: "WEB DEVELOPMENT INTERN",
     period: "June 2020 - October 2020",
     location: "MomentText AI, New Delhi",
-    des1:
-      "Worked as a Front End Web Developer at a Machine-Learning Startup that develops Smart Business Solutions for companies like KPMG and McKinsey & Company",
-    des2:
-      "Worked on the Front-End of AI-powered FMS Application for KPMG which will help in Internal Capital Adequacy Assessment Process (ICAAP) Stress Testing",
+    des1: "Worked as a Front End Web Developer at a Machine-Learning Startup that develops Smart Business Solutions for companies like KPMG and McKinsey & Company",
+    des2: "Worked on the Front-End of AI-powered FMS Application for KPMG which will help in Internal Capital Adequacy Assessment Process (ICAAP) Stress Testing",
   },
   volunteer: {
     title: `Volunteer Teacher`,
     period: "December 2017 - December 2018",
     location: "Becoming I Foundation",
-    desc:
-      "Taught underprivileged children of various neighboring government schools on a weekly basis",
+    desc: "Taught underprivileged children of various neighboring government schools on a weekly basis",
   },
   ex2: {
     title: "INTERN",
     period: "December 2019 - June 2020",
     location: "AssignCorp Ltd, Los Angeles",
-    des3:
-      "Studied about several Web Development frameworks such as React.js and node.js in depth and where to implement them",
-    des1:
-      "Worked with a cross-country team in California to create TessaB cryptocurrency tokens using Solidity (Ethereum)",
+    des3: "Studied about several Web Development frameworks such as React.js and node.js in depth and where to implement them",
+    des1: "Worked with a cross-country team in California to create TessaB cryptocurrency tokens using Solidity (Ethereum)",
     des2: `Tested the TessaB tokens by deploying them on the Kovan Testnet`,
   },
   ex3: {
@@ -124,27 +118,23 @@ let resumeData = {
     location: "NIIT Ltd, Gurgaon",
     des4: "Gained insights on how things work in an organisation",
     des1: "Created an auto email-generation application using Java",
-    des2:
-      "Used Google Calendar API to seamlessly connect the application to Outlook/Google Calendars",
-    des3:
-      "Converted the time of the invite to the destination's timezone while taking daylight savings into consideration",
+    des2: "Used Google Calendar API to seamlessly connect the application to Outlook/Google Calendars",
+    des3: "Converted the time of the invite to the destination's timezone while taking daylight savings into consideration",
   },
   ex4: {
     title: "VUE.JS DEVELOPMENT INTERN",
     period: "August 2020 - January 2021",
     location: "AssignCorp Ltd, Los Angeles",
-    des1:
-      "Studied about Vue.js, Vuex and Vue Storefront PWA and its applications",
-    des2:
-      "Working with a cross country team to develop Glyde.com using Vue Storefront PWA",
+    des1: "Studied about Vue.js, Vuex and Vue Storefront PWA and its applications",
+    des2: "Working with a cross country team to develop Glyde.com using Vue Storefront PWA",
   },
 
   ex5: {
     title: "ANALYST AT DCM: DIGITAL CUSTOMER & MARKETING, DELOITTE",
     period: "January 2021 - Present",
     location: "Deloitte India, Gurgaon",
-    des1:
-      "Learning new technologies in HashedIn University Bootcamp such as React.js, Next.js, Springboot and Java",
+    des1: "Learnt new technologies in HashedIn University Bootcamp such as React.js, Next.js, Springboot and Java",
+    des2: "Working as a full-stack developer on an Investment Application for a major bank",
   },
 };
 
@@ -152,8 +142,7 @@ let portfolioData = {
   portfolioCategory1: "Front-End",
   portfolioCategory2: "Back-end",
   portfolioCategory3: "Object Oriented Programming",
-  info:
-    "Here is a complete and comprehensive list of my projects. Feel free to click on any of the links below: ",
+  info: "Here is a complete and comprehensive list of my projects. Feel free to click on any of the links below: ",
 };
 
 let contactData = {
