@@ -98,6 +98,34 @@ let resumeData = {
     des1: "Worked as a Front End Web Developer at a Machine-Learning Startup that develops Smart Business Solutions for companies like KPMG and McKinsey & Company",
     des2: "Worked on the Front-End of AI-powered FMS Application for KPMG which will help in Internal Capital Adequacy Assessment Process (ICAAP) Stress Testing",
   },
+  projects: [
+    {
+      title: "DevConnector : a Full Stack MERN Application",
+      link: "https://socialdevconnect.herokuapp.com/",
+      desc: "Created a full-stack social networking web application using MERN Stack.",
+    },
+    {
+      title: "Coin Exchange UI",
+      link: "https://trade-my-sikka.vercel.app/",
+      desc: "A coin exchange UI designed using Material UI React and Next.js.",
+    },
+    {
+      title:
+        "Crowdfunding Web Application using Ethereum Smart Contracts and React.js",
+      link: "https://github.com/parth-gulati/CrowdFunding-Application---Solidity-Reactjs",
+      desc: "Created a crowd-funding Blockchain-based application using Solidity (Ethereum) with Reactjs for front-end.",
+    },
+    {
+      title: "myStreamer Application",
+      link: "https://github.com/parth-gulati/videoStreamer-RTMP-React.js",
+      desc: "Created a streaming project application using an RTMP server, OBS and React.js",
+    },
+    {
+      title: "myBlogger Application",
+      link: "https://pattypan-tech-blog.herokuapp.com/",
+      desc: "With the help of node.js, created a full-stack web application for blogs.",
+    },
+  ],
   volunteer: {
     title: `Volunteer Teacher`,
     period: "December 2017 - December 2018",

@@ -4,6 +4,19 @@ import resumeFullData from "../../ResumeData";
 export default class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
+
+    let projects = resumeData.projects;
+    let projectsHTML = projects.map((project) => (
+      <div className="resume-item pb-0">
+        <h4>{project.title}</h4>
+        <p>{project.desc}</p>
+        <p>
+          <a href={project.link}>View Project</a>
+        </p>
+        <br />
+      </div>
+    ));
+
     return (
       <React.Fragment>
         <section id="resume" className="resume">
@@ -68,7 +81,11 @@ export default class Resume extends Component {
                   </p>
                   <p>{resumeData.volunteer.desc}</p>
                 </div>
+                <br />
+                <h3 className="resume-title">Projects</h3>
+                {projectsHTML}
               </div>
+
               <div className="col-lg-6">
                 <h3 className="resume-title">Professional Experience</h3>
                 <div className="resume-item">
