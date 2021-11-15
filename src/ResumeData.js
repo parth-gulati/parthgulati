@@ -16,7 +16,7 @@ let aboutData = {
   phone: "9999696229",
   city: "New Delhi, India",
   availability: "Available",
-  age: "22",
+  age: "23",
   degree: "B.Tech in Computer Science",
   email: "gulati.parth98@gmail.com",
   bio: "I have been programming for about 5 years now. I like to constantly learn new technologies and work with them. I started with C++ and was amazed with the things that we can create on a single console application. I have since learned about 12 new languages and currently actively work on web development projects. Additionally, I like to read fantasy fiction, about space and time paradoxes, play video games and chill.",
