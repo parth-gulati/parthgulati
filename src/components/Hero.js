@@ -48,6 +48,9 @@ export default class Hero extends Component {
               <a href={heroData.linkedin} className="linkedin">
                 <i className="bx bxl-linkedin" />
               </a>
+              <a href={heroData.github} className="github">
+                <i className="bx bxl-github" />
+              </a>
             </div>
           </div>
         </section>

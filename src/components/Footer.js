@@ -22,6 +22,9 @@ class Footer extends Component {
               <a href={footerData.linkedin} className="linkedin">
                 <i className="bx bxl-linkedin" />
               </a>
+              <a href={footerData.github} className="github">
+                <i className="bx bxl-github" />
+              </a>
             </div>
             <div className="copyright">
               © Copyright{" "}

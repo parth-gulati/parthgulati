@@ -4,6 +4,7 @@ let heroData = {
   facebook: "https://www.facebook.com/parth1324/",
   instagram: "https://www.instagram.com/parthrealg/",
   linkedin: "https://www.linkedin.com/in/parth-gulati-733a15138/",
+  github: "https://github.com/parth-gulati",
 };
 
 let aboutData = {
@@ -65,6 +66,7 @@ let footerData = {
   facebook: "https://www.facebook.com/parth1324/",
   instagram: "https://www.instagram.com/parthrealg/",
   linkedin: "https://www.linkedin.com/in/parth-gulati-733a15138/",
+  github: "https://github.com/parth-gulati",
 };
 
 let resumeData = {
