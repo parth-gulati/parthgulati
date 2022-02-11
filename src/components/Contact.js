@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import axios from "axios";
 import { ToastContainer, toast, Slide } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import emailjs from '@emailjs/browser';
 
 class Contact extends React.Component {
   state = {
@@ -29,15 +30,24 @@ class Contact extends React.Component {
       subject: this.state.subject,
     };
 
-    axios
-      .post("API_URI", data)
-      .then((res) => {
-        this.setState({ sent: true, loading: false }, this.resetForm());
+    if(data.name.length===0 || data.email.length === 0 || data.message.length===0 || data.subject.length===0){
+      toast.error('Please fill all required fields')
+      return
+    }
+
+    emailjs.init('user_E0QToqtc9ZQLecTAXNHe9')
+
+    emailjs.send("service_hfotdhb","template_2zwg5xh",data)
+      .then((result)=>{
+        toast.success("Message successfully sent")
+        this.resetForm()
       })
-      .catch(() => {
-        this.setState({ loading: false });
-        console.log("Message not sent");
-      });
+      .catch((err)=>{
+        toast.error(err.text)
+      })
+
+    
+
   };
 
   resetForm = () => {
@@ -85,7 +95,6 @@ class Contact extends React.Component {
               </div>
               <div className="col-lg-8 mt-5 mt-lg-0">
                 <form
-                  role="form"
                   id="contact-form"
                   onSubmit={this.formSubmit}
                   className="php-email-form"
@@ -168,18 +177,6 @@ class Contact extends React.Component {
                   <div className="text-center">
                     <button
                       type="submit"
-                      onClick={() => {
-                        toast.error("🦄 Work in Progress", {
-                     
-                          position: "top-right",
-                          autoClose: 5000,
-                          hideProgressBar: false,
-                          closeOnClick: true,
-                          pauseOnHover: true,
-                          draggable: true,
-                          progress: undefined,
-                        });
-                      }}
                     >
                       Send Message
                     </button>
