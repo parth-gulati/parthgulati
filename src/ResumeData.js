@@ -172,9 +172,9 @@ let portfolioData = {
 
 let contactData = {
   name: "Parth Gulati",
-  email: "gulati.parth98@gmail.com",
-  location: "Karol Bagh, New Delhi-110005",
-  phone: "9999696229",
+  email: "pga56@sfu.ca",
+  location: "Burnaby, BC",
+  phone: "7786835420",
 };
 
 let resumeFullData = {
