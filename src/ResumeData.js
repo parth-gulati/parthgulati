@@ -20,7 +20,7 @@ let aboutData = {
   age: "24",
   degree: "Masters in Professional Computer Science",
   email: "parth_gulati@sfu.ca",
-  bio: "I have been programming for about 5 years now. I like to constantly learn new technologies and work with them. I started with C++ and was amazed with the things that we can create on a single console application. I have since learned about 12 new languages and currently actively work on Computer Vision projects. Additionally, I like to read fantasy fiction, about space and time paradoxes, play video games and chill.",
+  bio: "I have been programming for about 7 years now. I like to constantly learn new technologies and work with them. I started with C++ and was amazed with the things that we can create on a single console application. I have since learned about 12 new languages and currently actively work on Computer Vision projects. Additionally, I like to read fantasy fiction, about space and time paradoxes, play video games and chill.",
 };
 
 let factsData = {
@@ -42,20 +42,20 @@ let skillsData = {
   valMax: 100,
   valMin: 0,
   skill1: "C++",
-  val1: 95,
+  val1: 70,
   skill2: "Java",
-  val2: 90,
+  val2: 70,
   skill3: "JavaScript",
   val3: 90,
   skill4: "React.js",
   val4: 85,
-  skill5: "Node.js",
+  skill5: "OpenCV",
   val5: 70,
   skill6: "HTML & CSS",
   val6: 95,
-  skill7: "Vue.js",
+  skill7: "Python",
   val7: 80,
-  skill8: "MongoDB",
+  skill8: "PyTorch",
   val8: 70,
 };
 
@@ -107,9 +107,9 @@ let resumeData = {
       desc: "Created a full-stack social networking web application using MERN Stack.",
     },
     {
-      title: "Coin Exchange UI",
-      link: "https://trade-my-sikka.vercel.app/",
-      desc: "A coin exchange UI designed using Material UI React and Next.js.",
+      title: "Obstacle Course Game",
+      link: "https://github.com/parth-gulati/obstacle-course-game",
+      desc: "An Obstacle game made using C# and Unity",
     },
     {
       title:
@@ -118,14 +118,9 @@ let resumeData = {
       desc: "Created a crowd-funding Blockchain-based application using Solidity (Ethereum) with Reactjs for front-end.",
     },
     {
-      title: "myStreamer Application",
-      link: "https://github.com/parth-gulati/videoStreamer-RTMP-React.js",
-      desc: "Created a streaming project application using an RTMP server, OBS and React.js",
-    },
-    {
-      title: "myBlogger Application",
-      link: "https://pattypan-tech-blog.herokuapp.com/",
-      desc: "With the help of node.js, created a full-stack web application for blogs.",
+      title: "Last Minute Travel",
+      link: "https://github.com/utkarshsaboo45/last-minute-travel",
+      desc: "A trip packing assistance application made using React.js at SFU 2022 Hackathon",
     },
   ],
   volunteer: {
