@@ -68,10 +68,6 @@ class About extends Component {
                         <i className="icofont-rounded-right" />
                         <strong>Email:</strong> {aboutData.email}
                       </li>
-                      <li>
-                        <i className="icofont-rounded-right" />
-                        <strong>Freelance:</strong> {aboutData.availability}
-                      </li>
                     </ul>
                   </div>
                 </div>

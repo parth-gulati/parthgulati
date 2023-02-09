@@ -9,8 +9,8 @@ let heroData = {
 
 let aboutData = {
   description:
-    "<p>I am a driven web developer and passionate about programming. I enjoy solving complex problems and re-engineering inefficient processes. I have experience in languages such as Java, C++, HTML, CSS, JavaScript and Web Development frameworks such as Node.js and React.js.<br/> I have practical exposure on working with building complex websites from scratch and creating Smart Tokens using Solidity and deploying them on the Ethereum Blockchain. </p>",
-  title: "Computer Science Engineer & Web Developer.",
+    "<p>I am a driven software developer and passionate about programming. I enjoy solving complex problems and re-engineering inefficient processes. I have experience in languages such as Python, Java, C++, HTML, CSS, JavaScript and Web Development frameworks such as Node.js and React.js.<br/> I also have been studying in depth about Computer Vision at SFU and have a few projects such as facial landmark identification using PyTorch and Object Identification. </p>",
+  title: "Computer Vision Student & Software Developer.",
   summary: "I code for a living. And for fun.",
   birthday: "14 September 1998",
   website: "https://www.theparthgulati.com",
@@ -19,8 +19,8 @@ let aboutData = {
   availability: "Available",
   age: "24",
   degree: "Masters in Professional Computer Science",
-  email: "parth.gulati@hotmail.com",
-  bio: "I have been programming for about 5 years now. I like to constantly learn new technologies and work with them. I started with C++ and was amazed with the things that we can create on a single console application. I have since learned about 12 new languages and currently actively work on web development projects. Additionally, I like to read fantasy fiction, about space and time paradoxes, play video games and chill.",
+  email: "parth_gulati@sfu.ca",
+  bio: "I have been programming for about 5 years now. I like to constantly learn new technologies and work with them. I started with C++ and was amazed with the things that we can create on a single console application. I have since learned about 12 new languages and currently actively work on Computer Vision projects. Additionally, I like to read fantasy fiction, about space and time paradoxes, play video games and chill.",
 };
 
 let factsData = {
