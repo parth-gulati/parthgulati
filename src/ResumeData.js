@@ -13,7 +13,7 @@ let aboutData = {
   title: "Computer Vision Student & Software Developer.",
   summary: "I code for a living. And for fun.",
   birthday: "14 September 1998",
-  website: "https://www.theparthgulati.com",
+  website: "https://parthgulati.in",
   phone: "+1 778 683 5420",
   city: "Burnaby, British Columbia",
   availability: "Available",
