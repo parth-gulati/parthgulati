@@ -9,7 +9,7 @@ let heroData = {
 
 let aboutData = {
   description:
-    "<p>I am a driven software developer and passionate about programming. I enjoy solving complex problems and re-engineering inefficient processes. I have experience in languages such as Python, Java, C++, HTML, CSS, JavaScript and Web Development frameworks such as Node.js and React.js.<br/> I also have been studying in depth about Computer Vision at SFU and have a few projects such as facial landmark identification using PyTorch and Object Identification. </p>",
+    "I am a driven software developer and passionate about programming. I enjoy solving complex problems and re-engineering inefficient processes. I have experience in languages such as Python, Java, C++, HTML, CSS, JavaScript and Web Development frameworks such as Node.js and React.js.<br/> I also have been studying in depth about Computer Vision at SFU and have a few projects such as facial landmark identification using PyTorch and Object Identification.",
   title: "Computer Vision Student & Software Developer.",
   summary: "I code for a living. And for fun.",
   birthday: "14 September 1998",
@@ -28,12 +28,12 @@ let factsData = {
     "I strive to effectively learn and master new languages and implement them in new projects.",
   cd1: "Projects on Github",
   c1: 24,
-  cd2: "Certifications",
+  cd2: "Self-directed learning courses",
   c2: 12,
   cd3: "Programming Languages",
   c3: 10,
-  cd4: "Internships",
-  c4: 4,
+  cd4: "Years of work experience",
+  c4: 2,
 };
 
 let skillsData = {
@@ -148,7 +148,7 @@ let resumeData = {
   },
   ex4: {
     title: "VUE.JS DEVELOPMENT INTERN",
-    period: "August 2020 - January 2021",
+    period: "October 2020 - January 2021",
     location: "AssignCorp Ltd, Los Angeles",
     des1: "Studied about Vue.js, Vuex and Vue Storefront PWA and its applications",
     des2: "Working with a cross country team to develop Glyde.com using Vue Storefront PWA",
