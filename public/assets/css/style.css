@@ -263,6 +263,14 @@ h6 {
   position: relative;
 }
 
+@media only screen and (max-width: 768px), only screen and (max-width: 480px) {
+  #hero {
+    background-size: cover;
+    background-position: center center; /* Add this line to center the crop */
+    position: relative;
+  }
+}
+
 @media (min-width: 992px) {
   #hero {
     padding-left: 160px;
