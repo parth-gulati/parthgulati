@@ -71,7 +71,7 @@ class About extends Component {
                     </ul>
                   </div>
                 </div>
-                <p>{aboutData.description}</p>
+                <p>{aboutData.bio}</p>
               </div>
             </div>
           </div>
