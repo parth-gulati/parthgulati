@@ -151,15 +151,22 @@ let resumeData = {
     period: "October 2020 - January 2021",
     location: "AssignCorp Ltd, Los Angeles",
     des1: "Studied about Vue.js, Vuex and Vue Storefront PWA and its applications",
-    des2: "Working with a cross country team to develop Glyde.com using Vue Storefront PWA",
+    des2: "Worked with a cross country team to develop Glyde.com using Vue Storefront PWA",
   },
 
   ex5: {
     title: "ANALYST AT DCM: DIGITAL CUSTOMER & MARKETING, DELOITTE",
-    period: "March 2021 - Present",
+    period: "March 2021 - September 2022",
     location: "Deloitte India, Gurgaon",
     des1: "Learnt new technologies in HashedIn University Bootcamp such as React.js, Next.js, Springboot and Java",
-    des2: "Working as a full-stack developer on an Investment Application for a Major Client",
+    des2: "Worked as a full-stack developer on an Investment Application for a Major Client",
+  },
+  ex6: {
+    title: "DATA ENGINEER @ RBC AMPLIFY",
+    period: "May 2023 - Present",
+    location: "Royal Bank of Canada, Toronto",
+    des1: "Participating in a 4 month long hackathon to work on a  business problem",
+    des2: "Working as a data engineer to provide valuable insights in data and train machine learning models for automation",
   },
 };
 

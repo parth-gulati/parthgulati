@@ -48,7 +48,7 @@ export default class Resume extends Component {
                 <h3 className="resume-title">Summary</h3>
                 <div className="resume-item pb-0">
                   <h4>{resumeData.name}</h4>
-                  <h5>Software Developer at Deloitte</h5>
+                  <h5>Data Engineer @ RBC Amplify</h5>
                   <p>
                     <em>{resumeData.summary}</em>
                   </p>
@@ -107,6 +107,17 @@ export default class Resume extends Component {
               <div className="col-lg-6">
                 {projectsHTML2}
                 <h3 className="resume-title">Professional Experience</h3>
+                <div className="resume-item">
+                  <h4>{resumeData.ex6.title}</h4>
+                  <h5>{resumeData.ex6.period}</h5>
+                  <p>
+                    <em>{resumeData.ex6.location}</em>
+                  </p>
+                  <ul>
+                    <li>{resumeData.ex6.des1}</li>
+                    <li>{resumeData.ex6.des2}</li>
+                  </ul>
+                </div>
                 <div className="resume-item">
                   <h4>{resumeData.ex5.title}</h4>
                   <h5>{resumeData.ex5.period}</h5>
