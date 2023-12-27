@@ -55,6 +55,21 @@ export default class Resume extends Component {
                 </div>
                 <h3 className="resume-title">Education</h3>
                 <div className="resume-item">
+                  <h4>{resumeData.edu0.title}</h4>
+                  <h5>{resumeData.edu0.period}</h5>
+                  <p>
+                    <em>{resumeData.edu0.school}</em>
+                  </p>
+                  <p>
+                    <b>CGPA: </b>
+                    {resumeData.edu0.cgpa}
+                  </p>
+                  <p>
+                    <b>Relevant Classes: </b>
+                    {resumeData.edu0.classes}
+                  </p>
+                </div>
+                <div className="resume-item">
                   <h4>{resumeData.edu1.title}</h4>
                   <h5>{resumeData.edu1.period}</h5>
                   <p>
@@ -69,26 +84,7 @@ export default class Resume extends Component {
                     {resumeData.edu1.classes}
                   </p>
                 </div>
-                <div className="resume-item">
-                  <h4>{resumeData.edu2.title}</h4>
-                  <h5>{resumeData.edu2.period}</h5>
-                  <p>
-                    <em>{resumeData.edu2.school}</em>
-                  </p>
-                  <p>
-                    <b>Subjects: </b>
-                    {resumeData.edu2.des}{" "}
-                  </p>
-
-                  <p>
-                    <b>Achievements: </b>
-                    {resumeData.edu2.achievements}{" "}
-                  </p>
-                  <p>
-                    <b>Percentage: </b>
-                    {resumeData.edu2.percentage}{" "}
-                  </p>
-                </div>
+                
                 <h3 className="resume-title">Volunteer Work</h3>
 
                 <div className="resume-item pb-0">
@@ -107,6 +103,17 @@ export default class Resume extends Component {
               <div className="col-lg-6">
                 {projectsHTML2}
                 <h3 className="resume-title">Professional Experience</h3>
+                <div className="resume-item">
+                  <h4>{resumeData.ex7.title}</h4>
+                  <h5>{resumeData.ex7.period}</h5>
+                  <p>
+                    <em>{resumeData.ex7.location}</em>
+                  </p>
+                  <ul>
+                    <li>{resumeData.ex7.des1}</li>
+                    <li>{resumeData.ex7.des2}</li>
+                  </ul>
+                </div>
                 <div className="resume-item">
                   <h4>{resumeData.ex6.title}</h4>
                   <h5>{resumeData.ex6.period}</h5>
@@ -161,19 +168,6 @@ export default class Resume extends Component {
                     <li>{resumeData.ex2.des1}</li>
                     <li>{resumeData.ex2.des2}</li>
                     <li>{resumeData.ex2.des3}</li>
-                  </ul>
-                </div>
-                <div className="resume-item">
-                  <h4>{resumeData.ex3.title}</h4>
-                  <h5>{resumeData.ex3.period}</h5>
-                  <p>
-                    <em>{resumeData.ex3.location}</em>
-                  </p>
-                  <ul>
-                    <li>{resumeData.ex3.des1}</li>
-                    <li>{resumeData.ex3.des2}</li>
-                    <li>{resumeData.ex3.des3}</li>
-                    <li>{resumeData.ex3.des4}</li>
                   </ul>
                 </div>
               </div>

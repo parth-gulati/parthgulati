@@ -17,7 +17,7 @@ let aboutData = {
   phone: "+1 778 683 5420",
   city: "Burnaby, British Columbia",
   availability: "Available",
-  age: "24",
+  age: "25",
   degree: "Masters in Professional Computer Science",
   email: "parth_gulati@sfu.ca",
   bio: "I have been programming for about 7 years now. I like to constantly learn new technologies and work with them. I started with C++ and was amazed with the things that we can create on a single console application. I have since learned about 12 new languages and currently actively work on Computer Vision projects. Additionally, I like to read fantasy fiction, about space and time paradoxes, play video games and chill.",
@@ -77,9 +77,16 @@ let resumeData = {
   address: "Karol Bagh, New Delhi",
   phone: "+91 9999696229",
   email: "gulati.parth98@gmail.com",
+  edu0: {
+    title: "M.SC. IN PROFESSIONAL COMPUTER SCIENCE", 
+    period: "Sep 2022 - Dec 2023",
+    school: "Simon Fraser University, Burnaby",
+    classes: "Computer Vision Lab - I, Computer Vision Lab - II, Computer Vision",
+    cgpa: "3.46",
+  },
   edu1: {
     title: "BACHELOR OF TECHNOLOGY (COMPUTER SCIENCE)",
-    period: "2016-2020",
+    period: "Jun 2016 - Jul 2020",
     school: "Vellore Institute of Technology, Vellore",
     classes: `Problem Solving and Programming, Calculus for Engineers, Data Structures and Algorithms, Internet and Web Programming, Artificial Intelligence, Natural Language Processing and many more.`,
     cgpa: `8.22`,
@@ -163,11 +170,18 @@ let resumeData = {
   },
   ex6: {
     title: "DATA ENGINEER @ RBC AMPLIFY",
-    period: "May 2023 - Present",
+    period: "May 2023 - Aug 2023",
     location: "Royal Bank of Canada, Toronto",
-    des1: "Participating in a 4 month long hackathon to work on a  business problem",
-    des2: "Working as a data engineer to provide valuable insights in data and train machine learning models for automation",
+    des1: "Participated in a 4 month long hackathon to work on a  business problem",
+    des2: "Worked as a data engineer to provide valuable insights in data and train machine learning models for automation",
   },
+  ex7: {
+    title: "FULL STACK ENGINEER - COMPUTER VISION, INTUITIVE AI",
+    period: "November 2023 - Present", 
+    location: "Intuitive AI, Vancouver",
+    des1: "Leading end-to-end management of the Computer Vision pipeline for object detection and classification, including model training, optimization, and deployment",
+    des2: "Leveraged React.js to create responsive and intuitive user interfaces for web applications"
+  }
 };
 
 let portfolioData = {
