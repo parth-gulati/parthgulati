@@ -110,7 +110,7 @@ let resumeData = {
   projects: [
     {
       title: "DevConnector : a Full Stack MERN Application",
-      link: "https://socialdevconnect.herokuapp.com/",
+      link: "https://github.com/parth-gulati/DevConnector",
       desc: "Created a full-stack social networking web application using MERN Stack.",
     },
     {
@@ -132,13 +132,13 @@ let resumeData = {
   ],
   volunteer: {
     title: `Volunteer Teacher`,
-    period: "December 2017 - December 2018",
+    period: "Dec 2017 - Dec 2018",
     location: "Becoming I Foundation",
     desc: "Taught underprivileged children of various neighboring government schools on a weekly basis",
   },
   ex2: {
     title: "INTERN",
-    period: "December 2019 - June 2020",
+    period: "Dec 2019 - Jun 2020",
     location: "AssignCorp Ltd, Los Angeles",
     des3: "Studied about several Web Development frameworks such as React.js and node.js in depth and where to implement them",
     des1: "Worked with a cross-country team in California to create TessaB cryptocurrency tokens using Solidity (Ethereum)",
@@ -155,7 +155,7 @@ let resumeData = {
   },
   ex4: {
     title: "VUE.JS DEVELOPMENT INTERN",
-    period: "October 2020 - January 2021",
+    period: "Oct 2020 - Jan 2021",
     location: "AssignCorp Ltd, Los Angeles",
     des1: "Studied about Vue.js, Vuex and Vue Storefront PWA and its applications",
     des2: "Worked with a cross country team to develop Glyde.com using Vue Storefront PWA",
@@ -163,7 +163,7 @@ let resumeData = {
 
   ex5: {
     title: "ANALYST AT DCM: DIGITAL CUSTOMER & MARKETING, DELOITTE",
-    period: "March 2021 - September 2022",
+    period: "Mar 2021 - Sep 2022",
     location: "Deloitte India, Gurgaon",
     des1: "Learnt new technologies in HashedIn University Bootcamp such as React.js, Next.js, Springboot and Java",
     des2: "Worked as a full-stack developer on an Investment Application for a Major Client",
@@ -177,7 +177,7 @@ let resumeData = {
   },
   ex7: {
     title: "FULL STACK ENGINEER - COMPUTER VISION",
-    period: "November 2023 - Present", 
+    period: "Nov 2023 - Present", 
     location: "Intuitive AI, Vancouver",
     des1: "Leading end-to-end management of the Computer Vision pipeline for object detection and classification, including model training, optimization, and deployment",
     des2: "Leveraged React.js to create responsive and intuitive user interfaces for web applications"
