@@ -176,7 +176,7 @@ let resumeData = {
     des2: "Worked as a data engineer to provide valuable insights in data and train machine learning models for automation",
   },
   ex7: {
-    title: "FULL STACK ENGINEER - COMPUTER VISION, INTUITIVE AI",
+    title: "FULL STACK ENGINEER - COMPUTER VISION",
     period: "November 2023 - Present", 
     location: "Intuitive AI, Vancouver",
     des1: "Leading end-to-end management of the Computer Vision pipeline for object detection and classification, including model training, optimization, and deployment",
