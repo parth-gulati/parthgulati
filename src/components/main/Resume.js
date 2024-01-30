@@ -48,7 +48,7 @@ export default class Resume extends Component {
                 <h3 className="resume-title">Summary</h3>
                 <div className="resume-item pb-0">
                   <h4>{resumeData.name}</h4>
-                  <h5>Data Engineer @ RBC Amplify</h5>
+                  <h5>Full Stack Engineer - Computer Vision @ Intuitive AI</h5>
                   <p>
                     <em>{resumeData.summary}</em>
                   </p>
